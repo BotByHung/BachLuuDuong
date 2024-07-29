@@ -33,9 +33,8 @@ let typed=new Typed(".GioiThieu", {
 })
 // MUSIC PLAY
 const MusicList=[
-    "/BachLuuDuong/public/music/a.mp3",
-    "/BachLuuDuong/public/music/b.mp3",
-    "/BachLuuDuong/public/music/c.mp3",
+	"https://botbyhung.github.io/BachLuuDuong/public/music/a.mp3"
+    
 ];
 let t=parseInt(localStorage.getItem('td')) || Math.floor(Math.random() * MusicList.length);
 const audio=new Audio(MusicList[t]);
