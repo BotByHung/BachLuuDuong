@@ -33,9 +33,7 @@ let typed=new Typed(".GioiThieu", {
 })
 // MUSIC PLAY
 const MusicList=[
-    "https://thanhdieu.com/files/Em-Nào-Có-Tội.mp3",
-    "https://thanhdieu.com/files/Anh-Đã-Quen-Với-Cô-Đơn.mp3",
-    "https://thanhdieu.com/files/Về-Bên-Anh.mp3",
+    "/public/src/t/music/Về-Bên-Anh.mp3",
 ];
 let t=parseInt(localStorage.getItem('td')) || Math.floor(Math.random() * MusicList.length);
 const audio=new Audio(MusicList[t]);
