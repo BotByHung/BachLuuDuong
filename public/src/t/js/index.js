@@ -33,7 +33,7 @@ let typed=new Typed(".GioiThieu", {
 })
 // MUSIC PLAY
 const MusicList=[
-    "https://thanhdieu.com/files/Em-N%C3%A0o-C%C3%B3-T%E1%BB%99i.mp3",
+    "https://thanhdieu.com/files/Em-Nào-Có-Tội.mp3",
     "https://thanhdieu.com/files/Anh-Đã-Quen-Với-Cô-Đơn.mp3",
     "https://thanhdieu.com/files/Về-Bên-Anh.mp3",
 ];
